@@ -13,7 +13,7 @@
   
   + <h2>⚙ Funcionalidade:</h2>
 
-    <img height="450" src="https://github.com/maiurysousa/Projeto-MRV-DIO/blob/master/img/Hnet-image%20(1).gif"/>
+    <img height="450" src="https://github.com/maiurysousa/Projeto-MRV-DIO/blob/main/img/Hnet-image%20(1).gif"/>
   
  </div>
 
