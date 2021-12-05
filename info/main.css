@@ -1,0 +1,87 @@
+:root {
+    --vermelho: #c5000a;
+    --preto: #141414;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+    background: var(--preto); 
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    font-family: 'Arial Black', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:  40px;
+    color: var(--vermelho);
+}
+
+header nav a {
+        text-decoration: none;
+        color: #AAA;
+        margin-right:  10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+/*informações da série*/
+
+.info-serie {
+    font-size: 16px;
+ 
+    height: 600px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-serie .titulo {
+    margin-top: 15%;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.info-serie .container i {
+    color: var(--vermelho);
+    }
+
+.info-serie .sinopse {
+    width: 50%;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 25px;
+}
+
+.info-serie .descricao {
+    margin-top: 5%;
+    margin-bottom: 25px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.info-serie .container {
+    width: 50%;
+}
+
+.info-serie .container p {
+    margin: 15px;
+    width: 90%;
+}
